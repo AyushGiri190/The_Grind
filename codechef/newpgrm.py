@@ -1,2 +1,2 @@
-for i in range(2):
-    print("YES")
+import math
+print (math.ceil(1/4))

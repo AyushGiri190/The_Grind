@@ -14,7 +14,7 @@ for _ in range ( int(input())):
     if m==x:
         print(0)
     else:
-        print((n*m)//x)
+        print((n*m)//x)       
 '''
 test case
 4

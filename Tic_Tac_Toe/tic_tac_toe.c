@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//what if a single digit is clicked twice
 char a[9]={'1','2','3','4','5','6','7','8','9'};
 char p1,p2;
 int checkforwin()

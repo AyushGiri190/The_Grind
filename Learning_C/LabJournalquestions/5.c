@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<stdlib.h>
-
 void main ()
 {
     char s1[100],s2[100],s3[200];
@@ -18,6 +17,7 @@ void main ()
         s3[i+j+1]=s2[j];
         j++;
     }
+    s3[i+j+1]='\0';
     puts(s3);
     
     

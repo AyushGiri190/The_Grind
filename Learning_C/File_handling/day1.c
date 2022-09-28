@@ -10,3 +10,4 @@ int main ()
     printf("%",*ptr); 
     fclose(ptr);
 }
+

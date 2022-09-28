@@ -27,18 +27,17 @@ void main ()
     }
     if (i==n1)
     {
-        while (j<n2)
-        {
-            arr3[i+j]=arr2[j];
-            j++;
-        }
+       for (j;j<n2;j++)
+       {
+           arr3[i+j]=arr2[j];
+       }
     }
     else
     {
-        while (i<n1)
-        {
-            arr3[i+j]=arr1[i];
-        }
+        for (i;i<n1;i++)
+       {
+           arr3[i+j]=arr1[i];
+       }
     }
     for (int k=0;k<n1+n2;k++)
     {
